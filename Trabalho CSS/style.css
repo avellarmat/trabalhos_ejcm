@@ -5,7 +5,7 @@ body {
 
 div {
 	color: white;
-	text-align: center;
+	text-align: center; /* Este argumento serve para centralizar os elementos dos divs*/
 }
 
 div.email { /*aqui fiz uma div filha para a parte que tem a textarea. fiz como se fosse um email. Usei nos links também.*/
@@ -23,7 +23,7 @@ div.email { /*aqui fiz uma div filha para a parte que tem a textarea. fiz como s
 
 table {
 	margin-top: 20px;
-	margin-left: auto;
+	margin-left: auto; /*estas duas linhas são para centralizar a tabela*/
 	margin-right: auto;
 	background-color:#5F00C2;
 }
