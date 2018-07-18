@@ -1,0 +1,44 @@
+body {
+	background-image: url("whales.png"); /*imagem de background*/
+	background-color: #7B6CFF;
+}
+
+div {
+	color: white;
+	text-align: center;
+}
+
+div.email { /*aqui fiz uma div filha para a parte que tem a textarea. fiz como se fosse um email. Usei nos links também.*/
+	border: 2px solid black;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 25%;
+	margin-left: 25%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 10%;
+	padding-left: 10%;
+	background-color:#5F00C2;
+}
+
+table {
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color:#5F00C2;
+}
+
+textarea {
+	position: relative;
+	top: 10px;
+}
+
+button {
+	position: relative;
+	top: 3px;
+}
+
+
+a {
+	color:#00FFFF;
+}
