@@ -9,7 +9,7 @@ export class HomeComponent implements OnInit {
 
   constructor() { }
 
-  title = "EJCM kingdom"
+  title = "Poke-Project"
 
   ngOnInit() {
   }
