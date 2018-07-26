@@ -14,6 +14,9 @@
 
       <!-- fonts -->
       <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     </head>
     <body>
@@ -27,13 +30,25 @@
             <li><a href="contato.html">contato</a></li>
 
           </ul>
+          <a href="#" data-activates="slide-out" class="right button-collapse hide-on-large-only"><i class="material-icons">menu</i></a>
         </div>
       </nav>
 
+      <ul id="slide-out" class="side-nav">
+        <li><a class="subheader">Menu</a></li>
+        <li><div class="divider"></div></li>
+        <li><a href="retro.html"><i class="material-icons">home</i>Home</a></li>
+        <li><a href="#!"><i class="material-icons">comment</i>Blog</a></li>
+        <li><a href="flea-market.html"><i class="material-icons">store</i>Flea market</a></li>
+        <li><a href="#!"><i class="material-icons">event_available</i>Eventos</a></li>
+        <li><a href="contato.html"><i class="material-icons">contact_mail</i>Contato</a></li>
+      </ul>
+
       <div class="row white" id="bloco-1">
         <div class="container">
+          <div class="row">
             <h3></span>flea market.</span></h3>
-            <div class="col l4 m6 s12">
+            <div class="col l4 m12 s12">
                 <div class="card hoverable">
                   <div class="card-image waves-effect waves-block waves-light">
                     <img class="activator" src="img/cards/vinil.jpg">
@@ -43,7 +58,7 @@
                   </div>
                 </div>
              </div>
-             <div class="col l4 m6 s12">
+             <div class="col l4 m12 s12">
                  <div class="card hoverable">
                    <div class="card-image waves-effect waves-block waves-light">
                      <img class="activator" src="img/cards/patins.jpg">
@@ -54,7 +69,7 @@
 
                  </div>
               </div>
-              <div class="col l4 m6 s12">
+              <div class="col l4 m12 s12">
                   <div class="card hoverable">
                     <div class="card-image waves-effect waves-block waves-light">
                       <img class="activator" src="img/cards/flea-market.jpg">
@@ -64,7 +79,9 @@
                     </div>
                   </div>
                </div>
-              <div class="col l4 m6 s12">
+            </div>
+            <div class="row">
+              <div class="col l4 m12 s12">
                   <div class="card hoverable">
                     <div class="card-image waves-effect waves-block waves-light">
                       <img class="activator" src="img/cards/antique.jpg">
@@ -74,7 +91,7 @@
                     </div>
                   </div>
                </div>
-               <div class="col l4 m6 s12">
+               <div class="col l4 m12 s12">
                    <div class="card hoverable">
                      <div class="card-image waves-effect waves-block waves-light">
                        <img class="activator" src="img/cards/store.jpg">
@@ -84,6 +101,7 @@
                      </div>
                    </div>
                 </div>
+            </div>
        </div>
       </div>
       <footer class="page-footer white">
@@ -111,6 +129,7 @@
       <!--Import jQuery before materialize.js-->
       <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
       <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script type="text/javascript" src="js/sidenav.js"></script>
     </body>
 
 </html>
